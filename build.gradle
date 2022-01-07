@@ -29,7 +29,8 @@ dependencies {
     testImplementation (group: 'com.codeborne', name: 'selenide', version: '5.14.2');
     testImplementation 'com.github.javafaker:javafaker:1.0.2';
     testImplementation (group: 'org.projectlombok', name: 'lombok', version: '1.18.12');
-    testImplementation 'com.codeborne:selenide:5.23.3'
+    testImplementation 'com.codeborne:selenide:6.1.2'
+    testImplementation 'io.qameta.allure:allure-selenide:2.17.2'
 
 }
 
